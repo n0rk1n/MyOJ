@@ -1,4 +1,4 @@
-package cn.oriki.leetcode.maximum_depth_of_binary_tree;
+package cn.oriki.leetcode.finished.maximum_depth_of_binary_tree;
 
 /**
  * {@code @site: <a href="https://leetcode.cn/problems/maximum-depth-of-binary-tree/">104. 二叉树的最大深度</a>}

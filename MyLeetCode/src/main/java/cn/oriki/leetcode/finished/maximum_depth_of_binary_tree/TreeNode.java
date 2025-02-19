@@ -1,4 +1,4 @@
-package cn.oriki.leetcode.maximum_depth_of_binary_tree;
+package cn.oriki.leetcode.finished.maximum_depth_of_binary_tree;
 
 public class TreeNode {
 

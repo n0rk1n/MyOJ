@@ -1,4 +1,4 @@
-package cn.oriki.leetcode.merge_sorted_array;
+package cn.oriki.leetcode.finished.merge_sorted_array;
 
 import java.util.Arrays;
 

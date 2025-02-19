@@ -1,4 +1,4 @@
-package cn.oriki.leetcode.symmetric_tree;
+package cn.oriki.leetcode.finished.symmetric_tree;
 
 public class TreeNode {
 

@@ -1,4 +1,4 @@
-package cn.oriki.leetcode.symmetric_tree;
+package cn.oriki.leetcode.finished.symmetric_tree;
 
 /**
  * {@code @site: <a href="https://leetcode.cn/problems/symmetric-tree/">101. 对称二叉树</a>}

@@ -1,4 +1,4 @@
-package cn.oriki.leetcode.valid_palindrome;
+package cn.oriki.leetcode.finished.valid_palindrome;
 
 /**
  * {@code @site: <a href="https://leetcode.cn/problems/valid-palindrome/">125. 验证回文串</a>}
