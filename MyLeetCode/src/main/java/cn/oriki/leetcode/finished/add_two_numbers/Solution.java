@@ -1,4 +1,4 @@
-package cn.oriki.leetcode.add_two_numbers;
+package cn.oriki.leetcode.finished.add_two_numbers;
 
 /**
  * {@code @site: <a href="https://leetcode.cn/problems/add-two-numbers/">2. 两数相加</a>}

@@ -1,4 +1,4 @@
-package cn.oriki.leetcode.remove_duplicates_from_sorted_array;
+package cn.oriki.leetcode.finished.remove_duplicates_from_sorted_array;
 
 /**
  * {@code @site: <a href="https://leetcode.cn/problems/remove-duplicates-from-sorted-array/">26. 删除有序数组中的重复项</a>}
