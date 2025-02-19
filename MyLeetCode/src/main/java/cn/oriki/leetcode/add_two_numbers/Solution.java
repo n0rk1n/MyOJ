@@ -2,6 +2,8 @@ package cn.oriki.leetcode.add_two_numbers;
 
 /**
  * {@code @site: <a href="https://leetcode.cn/problems/add-two-numbers/">2. 两数相加</a>}
+ * {@code @rating: ⭐️⭐️⭐️}
+ * {@code @tags: 递归, 链表, 数学️}
  */
 public class Solution {
 
