@@ -1,4 +1,4 @@
-package cn.oriki.leetcode.pascals_triangle_ii;
+package cn.oriki.leetcode.finished.pascals_triangle_ii;
 
 import java.util.ArrayList;
 import java.util.List;

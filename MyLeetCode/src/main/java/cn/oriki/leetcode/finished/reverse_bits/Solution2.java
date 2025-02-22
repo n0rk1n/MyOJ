@@ -1,4 +1,4 @@
-package cn.oriki.leetcode.reverse_bits;
+package cn.oriki.leetcode.finished.reverse_bits;
 
 /**
  * {@code @site: <a href="https://leetcode.cn/problems/reverse-bits/">190. 颠倒二进制位</a>}

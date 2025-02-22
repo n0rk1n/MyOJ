@@ -1,7 +1,9 @@
 -- site: <a href="https://leetcode.cn/problems/delete-duplicate-emails/">196. 删除重复的电子邮箱</a>}
 -- rating: ⭐️⭐️⭐️
 -- tags: 数据库
-delete from Person where id not in (select id from (select min(id) id from Person group by email) p)
+delete
+from Person
+where id not in (select id from (select min(id) id from Person group by email) p)
 
 -- 1. 先按照 email 分组并获取分组的每个 email 的最小 id；
 --    select min(id) id from Person group by email
