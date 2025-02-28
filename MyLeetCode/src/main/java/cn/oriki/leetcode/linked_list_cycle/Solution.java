@@ -11,8 +11,11 @@ import java.util.Set;
 public class Solution {
 
     public boolean hasCycle(ListNode head) {
+        // 建立一个 Set 集合
         Set<ListNode> seen = new HashSet<>();
         while (head != null) {
+            // 将每个结点放入 set 中，如果成功则继续（未出现过）
+            // 如果失败则表明已经出现过，则存在重复结点，即环形
             if (!seen.add(head)) {
                 return true;
             }
