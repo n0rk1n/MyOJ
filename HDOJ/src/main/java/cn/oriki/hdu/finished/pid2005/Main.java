@@ -1,4 +1,4 @@
-package cn.oriki.hdu.pid2005;
+package cn.oriki.hdu.finished.pid2005;
 
 import java.time.LocalDate;
 import java.util.Scanner;

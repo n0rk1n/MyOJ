@@ -1,4 +1,4 @@
-package cn.oriki.hdu.pid2003;
+package cn.oriki.hdu.finished.pid2003;
 
 import java.util.Scanner;
 
