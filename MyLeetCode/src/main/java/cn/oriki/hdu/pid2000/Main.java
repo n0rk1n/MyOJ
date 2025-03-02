@@ -12,17 +12,7 @@ public class Main {
             char[] chars = string.toCharArray();
             // 直接升序排序
             Arrays.sort(chars);
-            for (int i = 0; i < chars.length; i++) {
-                if (i == chars.length - 1) {
-                    // 最后一个元素不输出空格
-                    System.out.print(chars[i]);
-                    continue;
-                } else {
-                    // 否则输出空格
-                    System.out.print(chars[i] + " ");
-                }
-            }
-            System.out.println();
+            System.out.printf("%c %c %c\n", chars[0], chars[1], chars[2]);
         }
     }
 }
