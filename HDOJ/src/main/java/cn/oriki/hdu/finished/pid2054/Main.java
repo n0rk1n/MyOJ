@@ -1,4 +1,4 @@
-package cn.oriki.hdu.pid2054;
+package cn.oriki.hdu.finished.pid2054;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
