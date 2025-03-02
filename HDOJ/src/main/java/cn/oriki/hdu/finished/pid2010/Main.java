@@ -1,4 +1,4 @@
-package cn.oriki.hdu.pid2010;
+package cn.oriki.hdu.finished.pid2010;
 
 import java.util.*;
 
