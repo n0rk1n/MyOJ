@@ -33,7 +33,8 @@ public class Main {
     public static long gcd(long x, long y) {
         if (x % y == 0)
             return y;
-        return gcd(y, x % y);
+        long gcd = gcd(y, x % y);
+        return gcd;
     }
 
     /**
