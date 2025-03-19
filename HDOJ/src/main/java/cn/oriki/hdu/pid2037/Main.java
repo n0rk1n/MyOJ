@@ -3,6 +3,9 @@ package cn.oriki.hdu.pid2037;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * 题目地址：<a href="https://acm.hdu.edu.cn/showproblem.php?pid=2037">今年暑假不 AC</a>
+ */
 public class Main {
 
     /**
