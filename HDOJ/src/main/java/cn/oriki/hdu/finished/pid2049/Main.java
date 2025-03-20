@@ -4,43 +4,47 @@ import java.util.Scanner;
 
 public class Main {
 
-    static long[] a = new long[21];
+    // 错排公式的数组保存
+    static long[] es = new long[21];
 
     static {
-        a[0] = 0;
-        a[1] = 0;
-        a[2] = 1;
-        a[3] = 2;
-        for (int i = 4; i < 21; i++)
-            a[i] = (i - 1) * (a[i - 1] + a[i - 2]);
+        es[1] = 1;
+        es[2] = 1;
+        es[3] = 2;
+        for (int i = 4; i <= 20; i++) {
+            es[i] = (i - 1) * (es[i - 1] + es[i - 2]);
+        }
     }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int b = in.nextInt();
-        while (b-- > 0) {
-            int n = in.nextInt();
-            int m = in.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int s = scanner.nextInt();
 
-            long sum = C(n, n - m) * a[m];
-            System.out.println(sum);
+        while (s-- > 0) {
+            int n = scanner.nextInt(); // n 对
+            int m = scanner.nextInt(); // m 对排错
+            System.out.println(foo(m, n) * es[m]);
         }
+
+        scanner.close();
     }
 
-    public static int C(int n, int m) {
-        int p = 1, q = 1;
+    /**
+     * 排列组合公式
+     */
+    public static long foo(int m, int n) {
+        return fac(n) / fac(m) / fac(n - m); // n! / (m! * (n - m)!)
+    }
 
-        if (m == 0)
-            return 1;
-
-        for (int i = 1; i <= m; i++) {
-            q *= i;
-        }
-
-        while (m-- > 0) {
-            p *= n;
+    /**
+     * 阶乘
+     */
+    public static long fac(int n) {
+        long result = 1;
+        while (n > 0) {
+            result *= n;
             n--;
         }
-        return (p / q);
+        return result;
     }
 }
