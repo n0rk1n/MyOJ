@@ -1,4 +1,4 @@
-package cn.oriki.hdu.pid2048;
+package cn.oriki.hdu.finished.pid2048;
 
 import java.util.Scanner;
 
@@ -12,7 +12,6 @@ public class Main {
         for (int i = 3; i <= 20; i++) {
             x[i] = (i - 1) * (x[i - 1] + x[i - 2]);
         }
-
     }
 
     public static void main(String[] args) {
