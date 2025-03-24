@@ -8,13 +8,12 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();
         while (t-- > 0) {
-            String x = in.next();
-            char[] c = x.toCharArray();
+            String next = in.next();
             int y = in.nextInt();
-            if (Character.isUpperCase(c[0])) {
-                System.out.println(c[0] - 64 + y);
+            if (Character.isUpperCase(next.charAt(0))) {
+                System.out.println(next.charAt(0) - 64 + y);
             } else {
-                System.out.println(96 - c[0] + y);
+                System.out.println(96 - next.charAt(0) + y);
             }
         }
     }
