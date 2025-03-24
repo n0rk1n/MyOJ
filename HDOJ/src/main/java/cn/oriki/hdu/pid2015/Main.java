@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         while (in.hasNextInt()) {
-            int n = in.nextInt();
-            int m = in.nextInt();
+            int n = in.nextInt(); // 总长度
+            int m = in.nextInt(); // 每 m 个数字
             int i = 2;
             int x = m;
             int j, sum = 0;
