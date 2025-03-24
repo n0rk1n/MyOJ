@@ -1,10 +1,10 @@
-package cn.oriki.hdu.pid2015;
+package cn.oriki.hdu.finished.pid2015;
 
 import java.util.Scanner;
 
 public class Main2 {
 
-    private static int[] array;
+    private static final int[] array;
 
     static {
         array = new int[100];
