@@ -27,7 +27,7 @@ public class Main {
                 int a = m / i - (i - 1) / 2;
                 int b = a + i - 1;
                 if ((a + b) * i == 2 * m) {
-                    System.out.println("[" + a + "," + b + "]");
+                    System.out.printf("[%d,%d]", a, b);
                 }
             }
             System.out.println();
